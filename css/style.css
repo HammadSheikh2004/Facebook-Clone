@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 15px 5%;
+}
+
+body{
+    background-color: rgb(248, 248, 248);
+}
+
+.facebook-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.facebook-content .image {
+    flex: 1 1 50%;
+}
+
+.facebook-content .image img {
+    width: 100%;
+    height: auto;
+    background-color: rgb(248, 248, 248);
+}
+
+.facebook-content .image p{
+    margin: 0 auto;
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #666;
+    margin-right: 0.6rem;
+    padding-left: 4rem;
+}
+
+
+.facebook-content .form-container {
+    flex: 1 1 50%;
+}
+
+.facebook-content .form-container form {
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 2.5rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.facebook-content .form-container form .box {
+    padding: 0.4rem 0.7rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: white;
+    width: 100%;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #666;
+}
+
+.facebook-content .form-container form .btn{
+    background-color:#1877f2;
+    border: none;
+    padding: 0.6rem 0.8rem;
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.facebook-content .form-container form p{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    color: #1877f2;
+}
+
+.facebook-content .form-container form p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.facebook-content .form-container form hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.facebook-content .form-container form .account-btn{
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   padding: 0.5rem 0.7rem;
+   font-size: 1.4rem;
+   font-weight: 600;
+   border-radius: 0.5rem;
+   background-color: #42b72a;
+   color: white;
+   border-color: #42b72a;
+   cursor: pointer;
+}
+
+.facebook-content .form-container p{
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+.facebook-content .form-container p span{
+    font-size: 1.2rem;
+    color: black;
+}
+
+.facebook-content .form-container p span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width:450px) {
+    .facebook-content .image p{
+       margin-bottom: 1.5rem;
+       text-align: start;
+       font-size: 1.2rem;
+       padding-left: 2rem;
+    }
+
+    .facebook-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 0rem;
+    }
+}
